@@ -14,6 +14,8 @@ MicToggle is a bash script that allows you to toggle the microphone on and off S
 
 Watch the demo video to see MicToggle in action:
 
+Note: Has been tested only on Arch-Linux for the time-being
+
 Observe the Mic-Activity Meter on the left side and the Keylogger on the right, which shows you in real time the key being pressed, my keybind (code below) set in the i3 config, is F5 (Function Key 5).
 
 ![MicToggle Demo](/Assets/Demo.gif)
