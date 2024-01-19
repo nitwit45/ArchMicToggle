@@ -6,7 +6,7 @@ MicToggle is a bash script that allows you to toggle the microphone on and off S
 
 Watch the demo video to see MicToggle in action:
 
-<iframe width="560" height="315" src="https://streamable.com/e/hgs7ot?nocontrols=1" frameborder="0" allowfullscreen></iframe>
+<iframe allow="fullscreen" allowfullscreen height="720" src="https://streamable.com/e/hgs7ot?nocontrols=1" width="1280" style="border:none;"></iframe>
 
 
 ![Muted](./icons/Muted.png) ![Unmuted](./icons/Unmuted.png)
