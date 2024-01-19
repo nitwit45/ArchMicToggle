@@ -54,8 +54,9 @@ The script will automatically determine the icon path based on its location.
 
 ```
 # Custom mute mic System wide buttons (F5)
-bindsym --release F5 exec /home/**your-username**/Scripts/MicToggle/toggle-mic.sh		
+bindsym --release F5 exec /home/your-username/Scripts/MicToggle/toggle-mic.sh		
 ```
+Make sure to replace the path with the path to your toggle-mic.sh file.
 
 ## Customization
 
