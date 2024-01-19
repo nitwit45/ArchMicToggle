@@ -1,6 +1,6 @@
 # MicToggle
 
-MicToggle is a bash script that allows you to toggle the microphone on and off in Linux. It provides a convenient way to mute and unmute your microphone with ease.
+MicToggle is a bash script that allows you to toggle the microphone on and off System-Wide in Linux. It provides a convenient way to mute and unmute your microphone with ease.
 
 ![Muted](./icons/Muted.png) ![Unmuted](./icons/Unmuted.png)
 
@@ -10,9 +10,6 @@ MicToggle is a bash script that allows you to toggle the microphone on and off i
 - [Installation](#installation)
 - [Usage](#usage)
 - [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Features
 
@@ -33,3 +30,26 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/your-username/MicToggle.git
 cd MicToggle
+# Make the script executable:
+chmod +x mic_toggle.sh
+```
+## Usage
+
+Run the script:
+```bash
+./mic_toggle.sh
+```
+The script will automatically determine the icon path based on its location.
+
+### Bind Dedicated Mute Microphone System-Wide Key
+
+./mic_toggle.sh - Toggles the microphone state. (You can add it in the manner shown below into the .config/i3/config file or i3 config file)
+
+```
+# Custom mute mic System wide buttons (F5)
+bindsym --release F5 exec /home/**your-username**/Scripts/MicToggle/toggle-mic.sh		
+```
+
+## Customization
+
+You can customize the icons by replacing the images in the icons directory.
